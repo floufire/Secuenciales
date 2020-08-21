@@ -1,5 +1,5 @@
 import math
-'''
+
 pesos= int(input ("Digite el valor en pesos:"))
 dolares= pesos * 0.00027
 print ("El valor en dolares es:",dolares)
@@ -16,22 +16,22 @@ temperatura= float(input("Digite la temperatura:"))
 masa= (presion * volumen) * (0.37* (temperatura + 460))
 print ("La masa del aire es: ",masa)
 
-'''
-'''
+
+
 
 edad = int(input("Digite la edad:"))
 npulsaciones= (220 - edad)/10
 print ("Tu numero de pulsaciones por cada 10 segundos debe ser de: ",npulsaciones)
 
-'''
-'''
+
+
 
 salario = float(input("Digite el salario: "))
 incremento = salario * 0.25
 nsalario= incremento + salario
 print ("El nuevo salario con el incremento es: ",nsalario)
-'''
-'''
+
+
 presupuesto = float(input("Digite el presupuesto del hospital: "))
 Pediatria= presupuesto * 0.30
 Ginecologia= presupuesto * 0.40
@@ -39,21 +39,20 @@ Traumatologia= presupuesto * 0.30
 print("El porcentaje del presupuesto para Pediatria es de: ",Pediatria)
 print("El porcentaje del presupuesto para Ginecologia es de: ",Ginecologia)
 print("El porcentaje del presupuesto para Traumatologia es de: ",Traumatologia)
-'''
-'''
+
+
 precioc = float(input("Digite el precio de compra: "))
 por30 = precioc*0.30
 preciov = por30 + precioc
 print("El precio de venta del articulo para ganarle el 30% es ",preciov)}
-'''
-'''
+
 tlunes = int(input("Digite el tiempo recorrido el dia Lunes de esta semana  cantidad de minutos"))
 tmiercoles = int(input("Digite el tiempo recorrido el dia Miercoles de esta semana en cantidad de minutos"))
 tviernes = int(input("Digite el tiempo recorrido el dia Viernesde esta semana en  cantidad de minutos"))
 promediot= (tlunes + tmiercoles + tviernes)/3
 print ("El promedio de tiempo en la ruta esta semana fue de ",promediot, " minutos")
-'''
-'''
+
+
 cantt = float(input("Digite la cantidad total invertida en pesos es: "))
 cantp1= float(input("Digite la cantidad invertida por la primera persona: "))
 cantp2= float(input("Digite la cantidad invertida por la segunda persona: "))
@@ -64,7 +63,7 @@ por3 = (cantp3 * 100) /cantt
 print( "El porcentaje del primer inversor es:",por1)
 print( "El porcentaje del segundo inversor es:",por2)
 print( "El porcentaje del tercer inversor es:",por3)
-'''
+
 
 print("Este es un programa para calcular el promedio de tus tres materias escogidas como las mas dificiles:")
 examm = float(input("Digite la nota del examen de matematicas: "))
